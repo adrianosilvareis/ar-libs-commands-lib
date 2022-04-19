@@ -12,6 +12,7 @@
   },
   "scripts": {
     "test": "jest --config ./jest.config.js",
-    "build": "tsc --project ./tsconfig.json"
+    "build": "tsc --project ./tsconfig.json",
+    "lint": "eslint --ext .js,.ts src tests --fix"
   }
 }
